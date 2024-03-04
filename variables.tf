@@ -33,3 +33,13 @@ variable "name_tag" {
   description = "Name of the EC2 instance"
   default     = "dev-instance"
 }
+variable "name_tag" {
+  type        = string
+  description = "Name of the EC2 instance"
+  default     = "prod-instance"
+}
+variable "name_tag" {
+  type        = string
+  description = "Name of the EC2 instance"
+  default     = "uat-instance"
+}
